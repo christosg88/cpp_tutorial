@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> sum_vecs(std::vector<int> const &vec1, std::vector<int> const &vec2);
+#include "vector_math.h"
 
 int main() {
   std::vector<int> vec1{1, 2, 3, 4, 5};
