@@ -8,9 +8,7 @@ int main() {
   std::vector<int> vec2{6, 7, 8, 9, 10};
   std::vector<int> vec3 = sum_vecs(vec1, vec2);
 
-  for (int i = 0; i < 5; ++i) {
-    std::cout << vec3[i] << "\n";
-  }
+  print_vec(vec3);
 
   return 0;
 }
