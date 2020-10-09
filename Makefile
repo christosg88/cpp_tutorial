@@ -10,3 +10,6 @@ lib/vector_math.o : src/vector_math.cpp Makefile
 lib/vector_helpers.o : src/vector_helpers.cpp Makefile
 	g++ -I include -c -o lib/vector_helpers.o src/vector_helpers.cpp
 
+.PHONY: clean
+clean:
+	rm -f bin/main lib/libvector_math.a lib/vector_helpers.o lib/vector_math.o
